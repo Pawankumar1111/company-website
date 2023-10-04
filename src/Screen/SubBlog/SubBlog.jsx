@@ -13,6 +13,7 @@ const SubBlog = () => {
   console.log(queryb[1]);
    const API = "https://www.website.draggital.in/api";
 // changed
+// another change
 
   const getBlogDetail = async () => {
     const result = await axios.get(`${API}/get-post-by-id`, {
